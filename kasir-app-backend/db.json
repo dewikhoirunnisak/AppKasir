@@ -1,0 +1,222 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "nama": "Makanan"
+    },
+    {
+      "id": 2,
+      "nama": "Minuman"
+    },
+    {
+      "id": 3,
+      "nama": "Cemilan"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "kode": "P01",
+      "nama": "Nasi Goreng",
+      "harga": 20000,
+      "is_ready": true,
+      "gambar": "nasgor.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": 2,
+      "kode": "P02",
+      "nama": "Alpukat Kocok",
+      "harga": 10000,
+      "is_ready": true,
+      "gambar": "alpukat.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Minuman"
+      }
+    },
+    {
+      "id": 3,
+      "kode": "P03",
+      "nama": "Corn Dog",
+      "harga": 17000,
+      "is_ready": true,
+      "gambar": "corn.jpg",
+      "category": {
+        "id": 3,
+        "nama": "Cemilan"
+      }
+    },
+    {
+      "id": 4,
+      "kode": "P04",
+      "nama": "Es Campur",
+      "harga": 20000,
+      "is_ready": true,
+      "gambar": "campur.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Minuman"
+      }
+    },
+    {
+      "id": 5,
+      "kode": "P05",
+      "nama": "Salad Buah",
+      "harga": 15000,
+      "is_ready": true,
+      "gambar": "salad.jpg",
+      "category": {
+        "id": 3,
+        "nama": "Cemilan"
+      }
+    },
+    {
+      "id": 6,
+      "kode": "P06",
+      "nama": "Manisan",
+      "harga": 5000,
+      "is_ready": true,
+      "gambar": "manisan.jpg",
+      "category": {
+        "id": 3,
+        "nama": "Cemilan"
+      }
+    },
+    {
+      "id": 7,
+      "kode": "P07",
+      "nama": "Sate Ayam",
+      "harga": 10000,
+      "is_ready": true,
+      "gambar": "sate.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": 8,
+      "kode": "P08",
+      "nama": "Rendang Sapi",
+      "harga": 22000,
+      "is_ready": true,
+      "gambar": "rendang.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": 8,
+      "kode": "P08",
+      "nama": "Soup Ayam",
+      "harga": 12000,
+      "is_ready": true,
+      "gambar": "soup.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": 9,
+      "kode": "P09",
+      "nama": "Mie Goreng Pedas",
+      "harga": 7000,
+      "is_ready": true,
+      "gambar": "mie.jpeg",
+      "category": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": 10,
+      "kode": "P010",
+      "nama": "Thai Tea",
+      "harga": 10000,
+      "is_ready": true,
+      "gambar": "tea.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Minuman"
+      }
+    },
+    {
+      "id": 11,
+      "kode": "P011",
+      "nama": "Boba",
+      "harga": 10000,
+      "is_ready": true,
+      "gambar": "boba.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Minuman"
+      }
+    }
+  ],
+  "keranjangs": [],
+  "pesanans": [
+    {
+      "total_bayar": 25000,
+      "menus": [
+        {
+          "jumlah": 1,
+          "total_harga": 10000,
+          "product": {
+            "id": 7,
+            "kode": "P07",
+            "nama": "Sate Ayam",
+            "harga": 10000,
+            "is_ready": true,
+            "gambar": "sate.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 1
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 10000,
+          "product": {
+            "id": 2,
+            "kode": "P02",
+            "nama": "Alpukat Kocok",
+            "harga": 10000,
+            "is_ready": true,
+            "gambar": "alpukat.jpg",
+            "category": {
+              "id": 2,
+              "nama": "Minuman"
+            }
+          },
+          "id": 2
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 5000,
+          "product": {
+            "id": 6,
+            "kode": "P06",
+            "nama": "Manisan",
+            "harga": 5000,
+            "is_ready": true,
+            "gambar": "manisan.jpg",
+            "category": {
+              "id": 3,
+              "nama": "Cemilan"
+            }
+          },
+          "id": 3
+        }
+      ],
+      "id": 1
+    }
+  ]
+}
